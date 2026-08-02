@@ -1,3 +1,3 @@
 <?php
-    $mysql = new mysqli('localhost', 'root', '', 'diplom');
+    $mysql = new mysqli('localhost', 'root', '', 'database');
 ?>
