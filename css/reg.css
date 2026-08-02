@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Geologica";
+}
+p{
+    margin: 0;
+}
+@font-face {
+    font-family: "Geologica";
+    src: url(/font/Geologica-Regular.ttf);
+}
+#header-container{
+    width: 90%;
+    margin-top: 15px;
+    padding: 1px;
+    border-radius: 15px;
+    background: linear-gradient(to right, #A255A0, #8EC642);
+}
+#all-container{
+    background-color: white;  
+    border-radius: 15px;
+}
+.img-container>img{
+    width: 120px;
+    height: 90px;
+}
+.img-container>a{
+    margin: 0;
+    font-size: 24px;
+    color: #6F7071;
+    text-decoration: none;
+}
+.nav-container>a{
+    color: #6F7071;
+    text-decoration:none;
+    font-size: 18px;
+}
+.nav-container{
+    gap: 30px;
+}
+.border-container{
+    padding: 1px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #A255A0, #8EC642);
+}
+.search-container{
+    background-color: white;
+    border-radius: 12px;
+    padding: 10px;
+}
+.search-container>a>img{
+    width: 25px;
+    height: 25px;
+}
+.dropdown{
+    padding: 1px;
+    border-radius: 12px;
+    background: linear-gradient(to right, #A255A0, #8EC642);
+    margin-right: 15px;
+}
+.dropdownbutton{
+    background-color: rgba(255, 255, 255, 1);
+    width: 195px;
+    height: 45px;
+    font-size: 18px;
+    border: 0px;
+    color: #6F7071;
+    border-radius: 12px;
+}
+.dropdown-item:hover{
+    background: #8EC642 !important;
+    transition: 0.1s ease-in-out;
+    color: white !important;
+}
+.dropdown-item{
+    transition: 0.1s ease-in-out;
+}
+
+footer{
+    border-top: 1px solid #1e1e1e;
+  }
+  footer>div>img{
+    width: 110px;
+    height: 75px;
+  }
+  .footer-container{
+    width: 40%;
+  }
+  .footer-container>a{
+    text-decoration: none;
+  }
+  .choose-border{
+    background: linear-gradient(to right, #A255A0, #8EC642);
+    padding: 1px;
+    border-radius: 12px;
+  }
+  .choose-card{
+    background-color: white;
+    width: 338px;
+    border-radius: 12px;
+  }
+  .choose-container-img{
+    width: 300px;
+    height: 350px;
+
+  }
+  .choose-container-img>img{
+    width: 300px;
+    height: 350px;
+    border-radius:12px;
+  }
+  .choose-button>a>button{
+    width: 100%;
+    border:none;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    height: 50px;
+    color: white;
+    background-color: #8EC642;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  .form-container{
+    background-color: white;
+    border-radius: 12px;
+  }
+.button-form{
+    color: white;
+    border: none;
+    border-radius: 12px;
+    background-color: #8EC642;
+    width: 240px;
+    height: 40px;
+    transition: 0.2s ease-in-out;
+}
+.button-form:hover{
+    transition: 0.2s ease-in-out;
+    background-color: #688f31;
+}
